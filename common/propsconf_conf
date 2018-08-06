@@ -3,7 +3,7 @@
 # MagiskHide Props Config
 # By Didgeridoohan @ XDA Developers
 
-CONFFINGERPRINT=""
+CONFFINGERPRINT="samsung/star2ltexx/star2lte:8.0.0/R16NW/G965FXXU1ARCC:user/release-keys"
 
 CONFPROPFILES=false
 
@@ -13,7 +13,14 @@ CONFTYPE=""
 CONFTAGS=""
 CONFSELINUX=""
 
-CONFPROPS=""
+CONFPROPS="
+ro.product.model=SM-G965F
+ro.product.brand=samsung
+ro.product.name=star2ltexx
+ro.product.device=star2lte
+ro.product.manufacturer=samsung
+ro.build.description=star2ltexx-user 8.0.0 R16NW G965FXXU1BRF8 release-keys
+"
 PROPOPTION=replace
 
 CONFDELPROPS=""
@@ -50,9 +57,6 @@ CONFWEB=enabled
 # ro.config.media_vol_steps=30
 # net.tethering.noprovisioning=true
 # "
-# Please observe that if the prop you're trying to set contains spaces, you'll
-# need to replace those spaces with "_sp_" (without the quotation marks).
-#
 # With PROPOPTION you can decide if the current custom prop list should
 # be replaced, added to or preserved. Add the corresponding words "replace",
 # "add", or "preserve". The default option is to replace the list.
@@ -69,7 +73,6 @@ CONFWEB=enabled
 # ro.config.media_vol_steps
 # net.tethering.noprovisioning
 # "
-#
 # With DELPROPOPTION you can decide if the current custom prop list should
 # be replaced, added to or preserved. Add the corresponding words "replace",
 # "add", or "preserve". The default option is to replace the list.
